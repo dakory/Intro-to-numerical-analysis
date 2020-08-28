@@ -1,0 +1,10 @@
+version: '3'
+services:
+
+    jupyter_notebook_server:
+        build: .
+        volumes:
+            - ./LearningMaterials:/LearningMaterials            
+        network_mode: host
+        command: bash -c "jupyter notebook --allow-root --port 8888 --ip=0.0.0.0"
+    
