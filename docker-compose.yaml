@@ -6,5 +6,5 @@ services:
         volumes:
             - ./LearningMaterials:/LearningMaterials            
         network_mode: host
-        command: bash -c "jupyter notebook --allow-root --port 8888 --ip=0.0.0.0 --NotebookApp.password=sha1:883823d89aed:a6abbf15373e44d5226fb47034d370f31f9cdb16"
+        command: bash -c "jupyter notebook --allow-root --port 8888 --ip=0.0.0.0 --NotebookApp.password=sha1:56fa123e9f85:09c8b21ac5e02ae483033416e292a233fd126955"
     
